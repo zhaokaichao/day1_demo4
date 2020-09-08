@@ -3,16 +3,17 @@
     <h2>父组件</h2>
     <p>子向父发送的数据：{{val}}</p>
     <list :msg='msg' @dataList='parentList'></list>
-    
+    <my></my>
   </div>
 </template>
 
 <script>
 import list from './components/list'
+import my from './components/my'
 export default {
   name: 'App',
   components: {
-    list
+    list,my
   },
   data() {
     return {
