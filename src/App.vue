@@ -16,7 +16,7 @@ export default {
   },
   data() {
     return {
-      msg:'我的父组件的',
+      msg:'我的父组件传来的',
       val:''
     }
   },
